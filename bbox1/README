@@ -1,0 +1,9 @@
+This is my attempt to improve a friends music box and to understand the problems with the current design.
+
+Here I'll place some simulations of the diy design and the problems that I see in it.
+If I can't find a models for the 4093 IC, I'll use the oscilloscope from xoscope to understand, what
+actually happens with this circuit.
+
+My approach to design a music box will be called bbox1 and I'll use timer 556 (two timers in one package).
+This design should be able to produce stable single frequency and attached sensors should be able to change
+the whole frequency band from 50 Hz to 20 kHz according to the applied force.
