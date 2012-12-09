@@ -1,20 +1,19 @@
-PCBNEW-BOARD Version 2 date Sat 10 Nov 2012 07:52:35 PM EET
+PCBNEW-BOARD Version 2 date  9.12.2012 (нд)  0,47,40 EET
 
-# Created by Pcbnew(2012-oct-18)-testing
+# Created by Pcbnew(2012-nov-02)-testing
 
 $GENERAL
 encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 1FFFFFFF
 Links 0
 NoConn 0
 Di 0 0 0 0
 Ndraw 0
 Ntrack 0
 Nzone 0
-BoardThickness 1.6
+BoardThickness 1.6002
 Nmodule 0
 Nnets 1
 $EndGENERAL
@@ -22,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A3 16535 11693
 Title ""
-Date "10 nov 2012"
+Date "8 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -35,33 +34,34 @@ $SETUP
 Layers 2
 Layer[0] Back signal
 Layer[15] Front signal
-TrackWidth 0.254
-TrackClearence 0.254
-ZoneClearence 0.508
+TrackWidth 0
+TrackClearence 0
+ZoneClearence 0
 Zone_45_Only 0
-TrackMinWidth 0.254
-DrawSegmWidth 0.2
-EdgeSegmWidth 0.15
-ViaSize 0.889
-ViaDrill 0.635
-ViaMinSize 0.889
-ViaMinDrill 0.508
-MicroViaSize 0.508
-MicroViaDrill 0.127
+TrackMinWidth 0
+DrawSegmWidth 0.3048
+EdgeSegmWidth 0.3048
+ViaSize 0
+ViaDrill 0
+ViaMinSize 0
+ViaMinDrill 0
+MicroViaSize 0
+MicroViaDrill 0
 MicroViasAllowed 0
-MicroViaMinSize 0.508
-MicroViaMinDrill 0.127
-TextPcbWidth 0.3
-TextPcbSize 1 1
-EdgeModWidth 0.15
-TextModSize 1 1
-TextModWidth 0.15
-PadSize 1 1
-PadDrill 2
-Pad2MaskClearance 0
+MicroViaMinSize 0
+MicroViaMinDrill 0
+TextPcbWidth 0.3048
+TextPcbSize 1.524 1.524
+EdgeModWidth 0.3048
+TextModSize 1.27 1.27
+TextModWidth 0.254
+PadSize 2.2 2.2
+PadDrill 1.8
+Pad2MaskClearance 0.254
+SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
 VisibleElements FFFFFFBF
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 152400) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 200) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
@@ -71,12 +71,12 @@ $EndEQUIPOT
 $NCLASS
 Name "Default"
 Desc "This is the default net class."
-Clearance 0.254
-TrackWidth 0.254
-ViaDia 0.889
-ViaDrill 0.635
-uViaDia 0.508
-uViaDrill 0.127
+Clearance 0
+TrackWidth 0
+ViaDia 0
+ViaDrill 0
+uViaDia 0
+uViaDrill 0
 AddNet ""
 $EndNCLASS
 $TRACK

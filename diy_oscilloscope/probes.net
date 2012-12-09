@@ -1,0 +1,612 @@
+# EESchema Netlist Version 1.1 created   9.12.2012 (нд)  2,09,28 EET
+(
+ ( /50BE5DD4 TRF_ANG6VA/15V+5V  T1 220V/2x15V {Lib=TRANSFO2}
+  (    1 N-000021 )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 N-000031 )
+  (    6 /trf2 )
+  (    7 /gnd )
+  (    8 ? )
+  (    9 /gnd )
+  (   10 /trf1 )
+ )
+ ( /50BD03CE bridge_wob  D3 BRIDGE {Lib=BRIDGE}
+  (    1 /trf1 )
+  (    2 /trf2 )
+  (    3 /avss )
+  (    4 /avdd )
+ )
+ ( /509CF2E4 led_3mm_red  D5 LED {Lib=LED}
+  (    1 N-000032 )
+  (    2 /avss12 )
+ )
+ ( /509CF2E3 r_1206  R2 1.5K {Lib=R}
+  (    1 N-000032 )
+  (    2 /gnd )
+ )
+ ( /509CF2AC r_1206  R1 1.5K {Lib=R}
+  (    1 N-000034 )
+  (    2 /gnd )
+ )
+ ( /509CF28B led_3mm_red  D4 LED {Lib=LED}
+  (    1 /avdd12 )
+  (    2 N-000034 )
+ )
+ ( /509CF257 c_1206  C8 10u {Lib=C}
+  (    1 /gnd )
+  (    2 /avss12 )
+ )
+ ( /509CE675 c_1206  C2 10u {Lib=C}
+  (    1 /gnd )
+  (    2 /avss )
+ )
+ ( /509CE655 c_1206  C7 10u {Lib=C}
+  (    1 /gnd )
+  (    2 /avdd12 )
+ )
+ ( /509CE638 c_1206  C1 10u {Lib=C}
+  (    1 /gnd )
+  (    2 /avdd )
+ )
+ ( /509CE3F1 c_1206  C6 100n {Lib=C}
+  (    1 /gnd )
+  (    2 /avss12 )
+ )
+ ( /509CE3E7 c_1206  C4 330n {Lib=C}
+  (    1 /gnd )
+  (    2 /avss )
+ )
+ ( /509CE3DD c_1206  C5 100n {Lib=C}
+  (    1 /gnd )
+  (    2 /avdd12 )
+ )
+ ( /509CE3CA c_1206  C3 330n {Lib=C}
+  (    1 /gnd )
+  (    2 /avdd )
+ )
+ ( /509CE37D TO92  U1 78L05 {Lib=78L05}
+  (    1 /avdd12 )
+  (    2 /gnd )
+  (    3 /avdd )
+ )
+ ( /509CE235 trimmer_64w  RV2 100K {Lib=POT}
+  (    1 N-000007 )
+  (    2 /Probe2_out )
+  (    3 /gnd )
+ )
+ ( /509CE234 DIP-8_300  U3 TL082 {Lib=TL082}
+  (    1 N-000027 )
+  (    2 N-000030 )
+  (    3 N-000028 )
+  (    4 /avss12 )
+  (    5 N-000029 )
+  (    6 N-000006 )
+  (    7 N-000007 )
+  (    8 /avdd12 )
+ )
+ ( /509CE233 r_1206  R12 27K {Lib=R}
+  (    1 N-000007 )
+  (    2 N-000006 )
+ )
+ ( /509CE232 r_1206  R10 3K {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000006 )
+ )
+ ( /509CE231 pin_strip_3  K3 CONN_3 {Lib=CONN_3}
+  (    1 ? )
+  (    2 N-000005 )
+  (    3 /gnd )
+ )
+ ( /509CE230 rc05_vert  R6 47K {Lib=R}
+  (    1 N-000029 )
+  (    2 N-000033 )
+ )
+ ( /509CE22F c_1206  C14 100p {Lib=C}
+  (    1 N-000029 )
+  (    2 N-000033 )
+ )
+ ( /509CE22E micromelf  D9 DIODE {Lib=DIODE}
+  (    1 N-000029 )
+  (    2 /avdd12 )
+ )
+ ( /509CE22D micromelf  D10 DIODE {Lib=DIODE}
+  (    1 N-000026 )
+  (    2 N-000029 )
+ )
+ ( /509CE22C micromelf  D11 DIODE {Lib=DIODE}
+  (    1 N-000026 )
+  (    2 /avss12 )
+ )
+ ( /509CE22B r_1206  R8 4.7K {Lib=R}
+  (    1 /gnd )
+  (    2 N-000026 )
+ )
+ ( /509CE22A r_1206  R4 1M {Lib=R}
+  (    1 /gnd )
+  (    2 N-000033 )
+ )
+ ( /509CE229 c_1206  C11 20p {Lib=C}
+  (    1 /gnd )
+  (    2 N-000033 )
+ )
+ ( /509CE228 c_1206  C10 10n {Lib=C}
+  (    1 N-000033 )
+  (    2 /Probe2_in )
+ )
+ ( /509CE1AF RCA_Connector_F_/_PCB_90deg  P5 CHINCH {Lib=CHINCH}
+  (    1 /Probe1_in )
+  (    2 N-000009 )
+ )
+ ( /509CE1AE RCA_Connector_F_/_PCB_90deg  P6 CHINCH {Lib=CHINCH}
+  (    1 /Probe2_in )
+  (    2 N-000009 )
+ )
+ ( /509CE178 c_1206  C9 10n {Lib=C}
+  (    1 N-000023 )
+  (    2 /Probe1_in )
+ )
+ ( /509CE102 c_1206  C12 20p {Lib=C}
+  (    1 /gnd )
+  (    2 N-000023 )
+ )
+ ( /509CE0F1 r_1206  R3 1M {Lib=R}
+  (    1 /gnd )
+  (    2 N-000023 )
+ )
+ ( /509CE0B8 r_1206  R7 4.7K {Lib=R}
+  (    1 /gnd )
+  (    2 N-000037 )
+ )
+ ( /509CE063 micromelf  D8 DIODE {Lib=DIODE}
+  (    1 N-000037 )
+  (    2 /avss12 )
+ )
+ ( /509CE05C micromelf  D7 DIODE {Lib=DIODE}
+  (    1 N-000037 )
+  (    2 N-000028 )
+ )
+ ( /509CE03F micromelf  D6 DIODE {Lib=DIODE}
+  (    1 N-000028 )
+  (    2 /avdd12 )
+ )
+ ( /509CDFA7 c_1206  C13 100p {Lib=C}
+  (    1 N-000028 )
+  (    2 N-000023 )
+ )
+ ( /509CDF90 rc05_vert  R5 47K {Lib=R}
+  (    1 N-000028 )
+  (    2 N-000023 )
+ )
+ ( /509CDDB5 pin_strip_3  K2 CONN_3 {Lib=CONN_3}
+  (    1 ? )
+  (    2 N-000025 )
+  (    3 /gnd )
+ )
+ ( /509CDCDC r_1206  R9 3K {Lib=R}
+  (    1 N-000025 )
+  (    2 N-000030 )
+ )
+ ( /509CDC93 r_1206  R11 27K {Lib=R}
+  (    1 N-000027 )
+  (    2 N-000030 )
+ )
+ ( /509CDB28 trimmer_64w  RV1 100K {Lib=POT}
+  (    1 N-000027 )
+  (    2 /Probe1_out )
+  (    3 /gnd )
+ )
+ ( /509CD8D5 RCA_Connector_F_/_PCB_90deg  P8 CHINCH {Lib=CHINCH}
+  (    1 /Probe2_out )
+  (    2 /gnd )
+ )
+ ( /509CD8A3 RCA_Connector_F_/_PCB_90deg  P7 CHINCH {Lib=CHINCH}
+  (    1 /Probe1_out )
+  (    2 /gnd )
+ )
+ ( /50C3B92E mors_3p  K1 CONN_3 {Lib=CONN_3}
+  (    1 N-000020 )
+  (    2 /gnd )
+  (    3 N-000019 )
+ )
+ ( /50C3C266 micromelf  D1 BAT42 {Lib=DIODE}
+  (    1 /avdd )
+  (    2 N-000020 )
+ )
+ ( /50C3C27D micromelf  D2 BAT42 {Lib=DIODE}
+  (    1 N-000019 )
+  (    2 /avss )
+ )
+ ( /50C3C2CB mors_2p  P1 INPUT {Lib=CONN_2}
+  (    1 N-000015 )
+  (    2 N-000031 )
+ )
+ ( /50C3D23C fuse_holder_CQ-2  FUSE1 FUSE {Lib=FUSE}
+  (    1 N-000015 )
+  (    2 N-000021 )
+ )
+ ( /50C3D843 testpoint_2mm5  P2 CONN_1 {Lib=CONN_1}
+  (    1 /avdd12 )
+ )
+ ( /50C3D880 testpoint_2mm5  P3 CONN_1 {Lib=CONN_1}
+  (    1 /avss12 )
+ )
+ ( /50C3D886 testpoint_2mm5  P4 CONN_1 {Lib=CONN_1}
+  (    1 /gnd )
+ )
+ ( /50C3E354 TO92  U2 79L05 {Lib=78L05}
+  (    1 /avss12 )
+  (    2 /gnd )
+  (    3 /avss )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D3
+ bridge_WOB
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$component D10
+ D?
+ S*
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/avss12" "avss12"
+ U2 1
+ C8 2
+ C6 2
+ P3 1
+ D8 2
+ U3 4
+ D11 2
+ D5 2
+Net 2 "/avdd12" "avdd12"
+ C7 2
+ U3 8
+ U1 1
+ P2 1
+ D9 2
+ D6 2
+ C5 2
+ D4 1
+Net 4 "/gnd" "gnd"
+ K1 2
+ P7 2
+ P4 1
+ U2 2
+ P8 2
+ K2 3
+ R7 1
+ R3 1
+ C12 1
+ RV1 3
+ T1 7
+ T1 9
+ R1 2
+ C2 1
+ C7 1
+ C4 1
+ C1 1
+ C6 1
+ R4 1
+ C11 1
+ R2 2
+ K3 3
+ R8 1
+ RV2 3
+ C5 1
+ C3 1
+ U1 2
+ C8 1
+Net 5 "" ""
+ R10 1
+ K3 2
+Net 6 "" ""
+ R12 2
+ R10 2
+ U3 6
+Net 7 "" ""
+ RV2 1
+ R12 1
+ U3 7
+Net 8 "/Probe1_in" "Probe1_in"
+ P5 1
+ C9 2
+Net 9 "" ""
+ P6 2
+ P5 2
+Net 10 "/Probe2_in" "Probe2_in"
+ P6 1
+ C10 2
+Net 11 "/avdd" "avdd"
+ C3 2
+ C1 2
+ U1 3
+ D3 4
+ D1 1
+Net 12 "/avss" "avss"
+ D2 2
+ D3 3
+ C4 2
+ C2 2
+ U2 3
+Net 13 "/Probe2_out" "Probe2_out"
+ RV2 2
+ P8 1
+Net 15 "" ""
+ P1 1
+ FUSE1 1
+Net 19 "" ""
+ D2 1
+ K1 3
+Net 20 "" ""
+ D1 2
+ K1 1
+Net 21 "" ""
+ T1 1
+ FUSE1 2
+Net 23 "" ""
+ R3 2
+ C12 2
+ C9 1
+ C13 2
+ R5 2
+Net 24 "/Probe1_out" "Probe1_out"
+ P7 1
+ RV1 2
+Net 25 "" ""
+ R9 1
+ K2 2
+Net 26 "" ""
+ R8 2
+ D11 1
+ D10 1
+Net 27 "" ""
+ R11 1
+ RV1 1
+ U3 1
+Net 28 "" ""
+ D6 1
+ C13 1
+ R5 1
+ D7 2
+ U3 3
+Net 29 "" ""
+ R6 1
+ C14 1
+ D9 1
+ D10 2
+ U3 5
+Net 30 "" ""
+ U3 2
+ R11 2
+ R9 2
+Net 31 "" ""
+ T1 5
+ P1 2
+Net 32 "" ""
+ D5 1
+ R2 1
+Net 33 "" ""
+ R6 2
+ R4 2
+ C11 2
+ C10 1
+ C14 2
+Net 34 "" ""
+ D4 2
+ R1 1
+Net 35 "/trf2" "trf2"
+ T1 6
+ D3 2
+Net 36 "/trf1" "trf1"
+ D3 1
+ T1 10
+Net 37 "" ""
+ R7 2
+ D8 1
+ D7 1
+}
+#End

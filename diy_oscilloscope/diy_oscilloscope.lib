@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Fri 09 Nov 2012 12:13:22 PM EET
+EESchema-LIBRARY Version 2.3  Date:  9.12.2012 (нд)  1,48,16 EET
 #encoding utf-8
 #
 # CHINCH
@@ -12,8 +12,8 @@ P 2 0 1 0  -50 -50  0 -50 N
 P 2 0 1 0  -30 0  -50 0 N
 P 2 0 1 0  -30 0  0 0 N
 P 2 0 1 0  0 -50  0 -30 N
-X GND 0 -150 -50 100 R 60 60 1 1 P
 X 1 1 -150 0 100 R 60 60 1 1 P
+X GND 2 -150 -50 100 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
