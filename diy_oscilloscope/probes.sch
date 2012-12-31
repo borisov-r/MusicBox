@@ -1,11 +1,8 @@
-EESchema Schematic File Version 2  date  9.12.2012 (нд)  2,09,21 EET
+EESchema Schematic File Version 2  date 30.12.2012 (нд) 19,06,15 EET
 LIBS:power
 LIBS:conn
 LIBS:linear
 LIBS:diy_oscilloscope
-LIBS:lib_active
-LIBS:lib_connectors
-LIBS:lib_passive
 LIBS:probes-cache
 EELAYER 27 0
 EELAYER END
@@ -13,7 +10,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PC oscilloscope probes 150 V max / 1x and 10x for xoscope"
-Date "9 dec 2012"
+Date "30 dec 2012"
 Rev "v1.0"
 Comp ""
 Comment1 ""
@@ -707,7 +704,7 @@ Text Notes 3496 1350 0    60   ~ 0
 Probes
 Text Notes 3500 1450 0    60   ~ 0
 50 Hz - 20 kHz
-Text Label 3712 2200 3    39   ~ 0
+Text Label 3750 2200 3    39   ~ 0
 gnd
 Text Label 3900 1650 0    39   ~ 0
 Probe1_in

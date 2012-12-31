@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date  9.12.2012 (нд)  2,02,36 EET
+EESchema Schematic File Version 2  date  9.12.2012 (нд)  2,09,21 EET
 LIBS:power
 LIBS:conn
 LIBS:linear
@@ -506,16 +506,6 @@ Text Label 2700 7000 3    39   ~ 0
 gnd
 Text Label 3200 6200 3    39   ~ 0
 gnd
-$Comp
-L 79L05 U2
-U 1 1 509CE3A2
-P 2700 6650
-F 0 "U2" H 2850 6455 60  0000 C CNN
-F 1 "79L05" H 2700 6850 60  0000 C CNN
-F 2 "TO92" H 2700 6650 60  0001 C CNN
-	1    2700 6650
-	1    0    0    -1  
-$EndComp
 $Comp
 L 78L05 U1
 U 1 1 509CE37D
@@ -1066,4 +1056,14 @@ Wire Wire Line
 Wire Wire Line
 	8250 1300 7900 1300
 Connection ~ 7900 1300
+$Comp
+L 78L05 U2
+U 1 1 50C3E354
+P 2700 6650
+F 0 "U2" H 2850 6454 60  0000 C CNN
+F 1 "79L05" H 2700 6850 60  0000 C CNN
+F 2 "TO92" H 2700 6650 60  0001 C CNN
+	1    2700 6650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
