@@ -1,6 +1,6 @@
-update=10.12.2012 (пн) 23,07,50 EET
+update=Thu 03 Jan 2013 06:00:57 PM EET
 version=1
-last_client=pcbnew
+last_client=eeschema
 [cvpcb]
 version=1
 NetITyp=0
@@ -13,22 +13,6 @@ NetType=0
 EquName1=devcms
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=/home/radoslav/rdrlab/01_cad/kicad/sch_lib
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=power
-LibName2=conn
-LibName3=linear
-LibName4=diy_oscilloscope
-LibName5=lib_active
-LibName6=lib_connectors
-LibName7=lib_passive
 [pcbnew]
 version=1
 LastNetListRead=
@@ -67,3 +51,19 @@ LibName16=lib_devices
 LibName17=lib_details
 LibName18=lib_passive
 LibName19=lib_connectors
+[eeschema]
+version=1
+LibDir=/home/radoslav/rdrlab/01_cad/kicad/sch_lib
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=power
+LibName2=conn
+LibName3=linear
+LibName4=diy_oscilloscope
+LibName5=lib_active
+LibName6=lib_connectors
+LibName7=lib_passive
