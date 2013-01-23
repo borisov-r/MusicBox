@@ -15,5 +15,7 @@ will soudn differently).
     bbox1: consists of timer 555, power transistor and speaker.
 
 I intend to use this software for this project:
+
 http://www.trueaudio.com/rta_abt1.htm
+
 In order to use it I need a descent audio amplifier as a probe with DC and AC measurement capabilities.
