@@ -25,3 +25,6 @@ http://scopeboy.com/elec/chargeamp.gif
 
 Hydrophone with preamp:
 http://leafcutterjohn.com/?p=915
+
+Preamp considerations: 
+http://tclutherie.hypermart.net/interface/
