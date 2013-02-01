@@ -28,3 +28,7 @@ http://leafcutterjohn.com/?p=915
 
 Preamp considerations: 
 http://tclutherie.hypermart.net/interface/
+
+http://www.megalithia.com/sounds/tech/piezo/opamp.html
+
+http://www.megalithia.com/sounds/tech/piezo/opamp.html
