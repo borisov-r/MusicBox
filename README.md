@@ -19,3 +19,6 @@ I intend to use this software for this project:
 http://www.trueaudio.com/rta_abt1.htm
 
 In order to use it I need a descent audio amplifier as a probe with DC and AC measurement capabilities.
+
+Chargeamp for piezo contact mic circuit:
+http://scopeboy.com/elec/chargeamp.gif
