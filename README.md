@@ -22,3 +22,6 @@ In order to use it I need a descent audio amplifier as a probe with DC and AC me
 
 Chargeamp for piezo contact mic circuit:
 http://scopeboy.com/elec/chargeamp.gif
+
+Hydrophone with preamp:
+http://leafcutterjohn.com/?p=915
