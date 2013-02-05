@@ -32,3 +32,5 @@ http://tclutherie.hypermart.net/interface/
 http://www.megalithia.com/sounds/tech/piezo/opamp.html
 
 http://www.megalithia.com/sounds/tech/piezo/opamp.html
+
+http://sound.westhost.com/project66.htm
