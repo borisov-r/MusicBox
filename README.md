@@ -13,3 +13,24 @@ Different directories are for different schematics and boxes (probably they
 will soudn differently).
 
     bbox1: consists of timer 555, power transistor and speaker.
+
+I intend to use this software for this project:
+
+http://www.trueaudio.com/rta_abt1.htm
+
+In order to use it I need a descent audio amplifier as a probe with DC and AC measurement capabilities.
+
+Chargeamp for piezo contact mic circuit:
+http://scopeboy.com/elec/chargeamp.gif
+
+Hydrophone with preamp:
+http://leafcutterjohn.com/?p=915
+
+Preamp considerations: 
+http://tclutherie.hypermart.net/interface/
+
+http://www.megalithia.com/sounds/tech/piezo/opamp.html
+
+http://www.megalithia.com/sounds/tech/piezo/opamp.html
+
+http://sound.westhost.com/project66.htm
