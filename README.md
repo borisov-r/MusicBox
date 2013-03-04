@@ -34,3 +34,5 @@ http://www.megalithia.com/sounds/tech/piezo/opamp.html
 http://www.megalithia.com/sounds/tech/piezo/opamp.html
 
 http://sound.westhost.com/project66.htm
+
+http://www.cafewalter.com/cafewalter/fetpre/pzp1_project.htm
